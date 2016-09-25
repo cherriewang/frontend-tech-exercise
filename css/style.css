@@ -1,0 +1,19 @@
+.frontpage_square{
+position:relative;
+overflow:hidden;
+padding-bottom:100%;
+}
+.frontpage_square img{
+position:absolute;
+}
+
+.thumbnails {
+    text-align:center;
+}
+
+#shift{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+}
