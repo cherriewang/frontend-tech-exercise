@@ -18,43 +18,58 @@
 
 </head>
 <body>
+	<!-- start of lightbox div -->
+	<div id="lightbox" class="lightbox" style="display:none" onclick="document.getElementById('lightbox').style.display='none';">
+	   <table class="lightbox_table">
+	   <tr>
+	   <td class="lightbox_table_cell" align="center">
+	      <div id="lightbox_content" style="width:300px; background-color:white; border:5px solid black;">
+	         <p>Click anywhere to close the lightbox.</p>
+	         <p>Will be using JavaScript to insert the selected image here!</p>
+	      </div>
+	   </td>
+	   </tr>
+	   </table>
+	</div>
+	<!-- end of lightbox div -->
+ 			
  
 		<div id="shift" class = "row">
 	 		<div id="content" class="col-sm-10">
 				<div class="col-sm-4">
-					<a href="#" class="thumbnail">
+					<a href="#" onClick="document.getElementById('lightbox').style.display='inline';" class="thumbnail">
 					<div id="0grid" class="frontpage_square"></div></a>
 				</div>
 				<div class="col-sm-4">
-					<a href="#" class="thumbnail">
+					<a href="#" onClick="document.getElementById('lightbox').style.display='inline';" class="thumbnail">
 					<div id="1grid" class="frontpage_square"></div></a>
 				</div>
 				<div class="col-sm-4">
-					<a href="#" class="thumbnail">
+					<a href="#" onClick="document.getElementById('lightbox').style.display='inline';" class="thumbnail">
 					<div id="2grid" class="frontpage_square"></div></a>
 				</div>
 				<div class="col-sm-4">
-					<a href="#" class="thumbnail">
+					<a href="#" onClick="document.getElementById('lightbox').style.display='inline';" class="thumbnail">
 					<div id="3grid" class="frontpage_square"></div></a>
 				</div>
 				<div class="col-sm-4">
-					<a href="#" class="thumbnail">
+					<a href="#" onClick="document.getElementById('lightbox').style.display='inline';" class="thumbnail">
 					<div id="4grid" class="frontpage_square"></div></a>
 				</div>
 				<div class="col-sm-4">
-					<a href="#" class="thumbnail">
+					<a href="#" onClick="document.getElementById('lightbox').style.display='inline';" class="thumbnail">
 					<div id="5grid" class="frontpage_square"></div></a>
 				</div>
 				<div class="col-sm-4">
-					<a href="#" class="thumbnail">
+					<a href="#" onClick="document.getElementById('lightbox').style.display='inline';" class="thumbnail">
 					<div id="6grid" class="frontpage_square"></div></a>
 				</div>
 				<div class="col-sm-4">
-					<a href="#" class="thumbnail">
+					<a href="#" onClick="document.getElementById('lightbox').style.display='inline';" class="thumbnail">
 					<div id="7grid" class="frontpage_square"></div></a>
 				</div>
 				<div class="col-sm-4">
-					<a href="#" class="thumbnail">
+					<a href="#" onClick="document.getElementById('lightbox').style.display='inline';" class="thumbnail">
 					<div id="8grid" class="frontpage_square"></div></a>
 				</div>
 	 		</div>

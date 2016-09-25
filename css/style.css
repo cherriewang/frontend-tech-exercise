@@ -11,9 +11,28 @@ position:absolute;
     text-align:center;
 }
 
-#shift{
+.lightbox {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, .8);
+    z-index: 1;
+}
+
+.lightbox_table {
+    width:100%;
+    height:100%;
+    z-index: 2;
+}
+
+.lightbox_table_cell {
+    vertical-align:middle;
+    z-index: 3;
+}
+
+#shift {
 	position: relative;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: auto;
+	z-index: 0;
 }
